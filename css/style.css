@@ -5,10 +5,8 @@
   margin: 0 auto;
 }
 .fon {
-  padding-top: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
-  background: url(..//img/ice_2.jpg) no-repeat center;
+  padding: 20px 15px 50px 15px;
+  background: url(..//img/ice_2.jpg) repeat-y center;
 }
 .fon h1 {
   text-align: center;
