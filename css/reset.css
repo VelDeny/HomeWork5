@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name,
+.form {
+  margin-top: 0;
+}
+.name {
+  margin-bottom: 5px;
+}
+.form {
+  margin-bottom: 25px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="fon">
+      <div class="container">
+        <h1>Заполни форму для загрузки видео</h1>
+        <img class="image" src="img/Down.png" alt="стрелка вниз" />
+        <form
+          class="align"
+          action="https://fom.in.ua/echo"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <p class="name">Заголовок фильма</p>
+          <p class="form">
+            <input
+              tabindex="1"
+              type="text"
+              placeholder="Заголовок"
+              name="title"
+              value=""
+            />
+          </p>
+          <p class="name">Прикрепить обложку фильма</p>
+          <p class="form"><input tabindex="2" type="file" /></p>
+          <p class="name">Продолжительность фильма:</p>
+          <p class="form"><input tabindex="3" type="time" /></p>
+          <p class="name">Выберите жанр фильма</p>
+          <p class="form">
+            <input tabindex="4" type="radio" name="comedy" />комедия
+            <input tabindex="4" type="radio" name="triller" />триллер
+            <input tabindex="4" type="radio" name="action" />боевик
+            <input tabindex="4" type="radio" name="fantasy" />фантастика
+          </p>
+          <p class="name">Возрастные ограничения</p>
+          <p class="form">
+            <input tabindex="5" type="radio" name="age1" />от 0 до 10лет
+            <input tabindex="5" type="radio" name="age2" />от 10 до 18лет
+            <input tabindex="5" type="radio" name="age3" />18+
+          </p>
+          <p class="name">Добавить информационную ссылку на фильм</p>
+          <p class="form">
+            <input tabindex="6" type="url" placeholder="URL" name="link" />
+          </p>
+          <p class="name">Дата выхода в прокат:</p>
+          <p class="form"><input tabindex="7" type="date" /></p>
+          <p class="name">Оценить фильм от 1 до 10 баллов</p>
+          <p class="form">
+            <input tabindex="8" type="range" min="1" max="10" />
+          </p>
+          <p class="name">Короткое описание фильма</p>
+          <p class="form">
+            <textarea
+              tabindex="9"
+              name="description"
+              id=""
+              cols="65"
+              rows="10"
+            ></textarea>
+          </p>
+          <p class="name">Выбор языка озвучки фильма</p>
+          <p class="form">
+            <select name="lang" id="">
+              <option tabindex="10" value="Deutsch">Deutsch</option>
+              <option tabindex="10" value="English">English</option>
+              <option tabindex="10" value="Espanol">Español</option>
+            </select>
+          </p>
+          <p>
+            <input tabindex="11" type="submit" />
+            <input tabindex="12" type="reset" />
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
